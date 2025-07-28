@@ -1,0 +1,75 @@
+
+body {
+background-image: url("../image/bk08.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color: rgb(241, 237, 213);
+}
+
+.form-group {
+    
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+.form-group label {
+    color: black;
+
+    flex-basis: 280px;
+    text-align: right;
+    margin-right: 20px;
+    
+}
+span {
+    color: red;
+}
+
+
+.wrapper {
+ display : flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+ form{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #b9b5b5;
+ }
+.info{
+    font-size: 0.8em;
+    color: #1e1f1f;
+ margin: 0;
+}
+
+
+
+ 
+.button1{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 45%;
+    transition: all 0.3s ease;
+}
+ 
+
+.label-block {
+    flex-basis: 305px;
+    text-align: right;
+    margin-right: 20px;
+}
+.button1:hover {
+  
+    transform: scale(1.05);
+}
