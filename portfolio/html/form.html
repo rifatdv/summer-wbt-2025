@@ -12,20 +12,21 @@
 
     <div class="wrapper">
 
-        <form method="GET">
+        <form action= "new.html" method="GET">
             <h3 style="color: brown;">Contact Form</h3>
             <div class="form-group">
-                <label  for="name">First Name <span>*</span></label>
-                <input type="text" id="name" required>
+                <label  for="fname">First Name <span>*</span></label>
+                <input type="text" id="fname" name ="fname" required>
+
             </div>
             <div class="form-group">
-                <label for="name">Last Name<span>*</span></label>
-                <input type="text" id="name" required>
+                <label for="lname">Last Name<span>*</span></label>
+                <input type="text" id="lname" name ="lname"  required>
             </div>
  
             <div class="form-group">
                 <label for="name">Position in company<span>*</span></label>
-                <select id="state" required>
+                <select id="state" name="position"required>
                     <option value="">Select position </option>
                     <option value="HR">HR</option>
                     <option value="CEO">CEo</option>
@@ -37,7 +38,7 @@
 
             <div class="form-group">
                 <label for="email">Email<span>*</span></label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" name="email"r equired>
 
             </div>
 
@@ -48,9 +49,9 @@
 
                 <label for="name">Reason For contact</label>
                <div>
-                <input type="radio" value="none" required>Project<br>
-                <input type="radio" value="50" required>Thesis<br>
-                <input type="radio" value="100" required>Meet & Greet<br>
+                <input type="radio" name ="reasoncontact" value="Project" required>Project<br>
+                <input type="radio" name ="reasoncontact"  value="Thesis" required>Thesis<br>
+                <input type="radio" name ="reasoncontact" value="Meet & Greet" required>Meet & Greet<br>
                 </div>
 
 
@@ -63,8 +64,8 @@
 
                 <label for="name">Services</label>
                <div>
-                <input type="radio" value="none" required>App Development<br>
-                <input type="radio" value="50" required>Web Development<br>
+                <input type="radio" name="Services" value="App Development" required>App Development<br>
+                <input type="radio" name="Services" value="Web Development" required>Web Development<br>
                 
                 </div>
 
@@ -78,8 +79,8 @@
                 <label for="name"> Are you offering job ?</label>
                 <div>
 
-                    <input type="checkbox" name="donation" required>Yes<br>
-                    <input type="checkbox" name="donation">No<br>
+                    <input type="checkbox" name="Yes" required>Yes<br>
+                    <input type="checkbox" name="No">No<br>
 
                 </div>
             </div>
