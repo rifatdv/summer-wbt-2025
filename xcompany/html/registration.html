@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/registrantion.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <span class="x">X</span><span class="company">Company</span>
+            </div>
+            <div class="nav">
+                <a href="xcomhom.html">Home</a> |
+                <a href="login.html">Login</a> |
+                <a href="registration.html">Registration</a>
+            </div>
+        </div>
+        <hr>
+        <div class="main">
+            <div class="reg-title"><b>REGISTRATION</b></div>
+            <form class="reg-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <span>:</span>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <span>:</span>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="username">User Name</label>
+                    <span>:</span>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <span>:</span>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="confirmpassword">Confirm Password</label>
+                    <span>:</span>
+                    <input type="password" id="confirmpassword" name="confirmpassword">
+                </div>
+                <div class="form-group gender-group">
+                    <label>Gender</label>
+                    <span>:</span>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <div class="form-group dob-group">
+                    <label for="dob">Date of Birth</label>
+                    <span>:</span>
+                    <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy">
+                </div>
+                <hr><br>
+                <input type="submit" value="Submit"> <input type="reset" value="Reset">
+            </form>
+        </div>
+        <hr>
+        <div class="footer">
+            Copyright &copy; 2017
+        </div>
+    </div>
+</body>
+</html>

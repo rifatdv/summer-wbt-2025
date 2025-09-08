@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background: #fff;
+}
+.container
+{
+    width: 700px;
+    margin: 40px auto;
+    border: 2px solid #444;
+    background: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px;
+    padding: 10px;
+
+}
+.header{
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px;
+    padding: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.x {
+    color: #2ecc40;
+    font-size: 50px;
+    font-family: Arial Black, Arial, sans-serif;
+    margin-right: 2px;
+}
+.company {
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.nav {
+    font-size: 10px;
+}
+.nav a {
+    color: #4b006e;
+    text-decoration: underline;
+    margin: 2px;
+}
+.main {
+    padding: 20px;
+    font-size: 10px;
+    color: #222;
+    line-height: 1.5;       
+}
+
+.footer {
+    text-align: center;
+    padding: 10px ;
+    font-size: 5px;
+    color: #222;
+}
