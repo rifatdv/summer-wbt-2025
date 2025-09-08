@@ -20,7 +20,7 @@
         </div>
         <hr>
         <div class="main">
-            <div class="reg-title"><b>REGISTRATION</b></div>
+            <div class="reg-title"><h2>REGISTRATION</h2></div>
             <form class="reg-form">
                 <div class="form-group">
                     <label for="name">Name</label>
@@ -47,20 +47,27 @@
                     <span>:</span>
                     <input type="password" id="confirmpassword" name="confirmpassword">
                 </div>
-                <div class="form-group gender-group">
-                    <label>Gender</label>
-                    <span>:</span>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label>
-                    <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Other</label>
+                <div class="gen">
+                    <div class="gender">
+                        <h2>Gender</h2>
+                    </div>
+                    <div class="genopt">
+                          <span>:</span>
+                        <input type="radio" name="Male" id="Male">Male
+                        <input type="radio" name="Female" id="Female">Female
+                        <input type="radio" name="Other" id="Other">Other
+                    </div>
                 </div>
-                <div class="form-group dob-group">
-                    <label for="dob">Date of Birth</label>
-                    <span>:</span>
-                    <input type="text" id="dob" name="dob" placeholder="dd/mm/yyyy">
+ 
+                 <div class="dob">
+                    <div class="DOB">
+                        <h2>Date of Birth</h2>
+                    </div>
+                    <div class="dobopt">
+                        <input type="number" name="date" id="date">/
+                        <input type="number" name="month" id="month">/
+                        <input type="number" name="year" id="year"> <span class="dobstyle">(dd/mm/yyyy)</span>
+                    </div>
                 </div>
                 <hr><br>
                 <input type="submit" value="Submit"> <input type="reset" value="Reset">

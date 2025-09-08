@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+
     background: #fff;
 }
-.container {
+.container
+{
     width: 700px;
     margin: 40px auto;
     border: 2px solid #444;
@@ -14,7 +16,9 @@ body {
     align-items: center;
     border-bottom: 2px;
     padding: 10px;
+
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -34,58 +38,45 @@ body {
 }
 .nav {
     font-size: 10px;
+    display: flex;
+
+    align-items: center;
+    gap: 5px;
 }
 .nav a {
     color: #4b006e;
     text-decoration: underline;
     margin: 2px;
 }
-.main {
-    padding: 20px;
-    font-size: 10px;
-    color: #222;
-    line-height: 1.5;
-    border: 2px solid #444 ;
-    margin: 50px;
-}
-.reg-title h2 {
-    font-size: 1.9em;
-    font-weight: bold;
-    margin-bottom: 15px;
-    text-align: left;
-    margin: -35px 0px 0px 0px;
-    background: #fff;
-    width:28%;
-    padding-left: 3px;
-
-}
-
-.reg-form {
-    
-    padding: 3px;
-}
-
-.form-group {
+.main{
     display: flex;
-    align-items: center;
-    margin-bottom: 10px;
 }
-.form-group label {
-    width: 120px;
-    font-size: 1em;
+.sidebar {
+    width: 200px;
+    border-right: 2px solid #444;
+    padding-right: 10px;
+    margin-left: 5px;
 }
-.form-group span {
-    margin: 0 5px 0 0;
+.sidebar ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+.sidebar ul li a {
+    color: #4b006e;
+    text-decoration: underline;
+}
+.content {
+    flex: 1;
+    padding: 20px;
 }
 
 .footer {
     text-align: center;
-    padding: 10px;
-    font-size: 5px;
+    padding: 10px ;
+    font-size: 12px;
     color: #222;
-}
-hr {
-    border: none;
-    border-top: 2px solid #888;
-    margin: 0;
+    border-top: 2px solid #444;
 }

@@ -45,16 +45,24 @@ body {
     font-size: 10px;
     color: #222;
     line-height: 1.5;
+    border: 2px solid #444 ;
+    margin: 50px;
 }
-.reg-title {
-    font-size: 1.1em;
+.reg-title h2 {
+    font-size: 1.9em;
     font-weight: bold;
     margin-bottom: 15px;
     text-align: left;
+    margin: -35px 0px 0px 0px;
+    background: #fff;
+    width: 26%;
+    padding-left: 3px;
+
 }
+
 .reg-form {
-    width: 400px;
-    margin: 0 auto;
+    
+    padding: 3px;
 }
 .form-group {
     display: flex;
@@ -68,7 +76,52 @@ body {
 .form-group span {
     margin: 0 5px 0 0;
 }
+.genopt {
+    margin-left: 120px;
+    font-size: 1.3em  
+}
+.gen{
+    border: 1px solid #111111  ;
+    
+}
+.gender h2{
+        
 
+    margin: -12px 0px 0px 0px;
+    margin-left:  10px;
+    background: white;
+    width: 10%;
+    padding-left: 3px;
+}
+.dob{
+    margin: 12px;
+    border: 1px solid black;
+    margin-left: 2px;
+}
+ 
+.DOB h2{
+    font-weight: 100;
+    font-size: 17px;
+    margin: -10px 0 0 15px;
+    padding-left: 3px;
+    width: 20%;
+    background: white;
+    display: flex;
+}
+ 
+.dobopt{
+    padding-left: 15px;
+        display: flex;
+}
+.dobopt input{
+    width: 40px;
+    height: 12px;
+    margin-bottom: 10px;
+}
+.dobopt span{
+    padding-left: 10px;
+    font-style: italic;
+}
 .footer {
     text-align: center;
     padding: 10px;

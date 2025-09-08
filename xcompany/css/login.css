@@ -45,16 +45,24 @@ body {
     font-size: 10px;
     color: #222;
     line-height: 1.5;
+    border: 2px solid #444 ;
+    margin: 50px;
 }
-.reg-title {
-    font-size: 1.1em;
+.reg-title h2 {
+    font-size: 1.9em;
     font-weight: bold;
     margin-bottom: 15px;
     text-align: left;
+    margin: -35px 0px 0px 0px;
+    background: #fff;
+    width:10%;
+    padding-left: 3px;
+
 }
+
 .reg-form {
-    width: 400px;
-    margin: 0 auto;
+    
+    padding: 3px;
 }
 .form-group {
     display: flex;
